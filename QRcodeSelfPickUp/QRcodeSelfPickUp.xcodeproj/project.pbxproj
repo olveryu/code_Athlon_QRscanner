@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9273E91F6E096300AE8FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273E81F6E096300AE8FD7 /* AppDelegate.swift */; };
+		3A9273EB1F6E096300AE8FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273EA1F6E096300AE8FD7 /* ViewController.swift */; };
+		3A9273EE1F6E096300AE8FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9273EC1F6E096300AE8FD7 /* Main.storyboard */; };
+		3A9273F01F6E096300AE8FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9273EF1F6E096300AE8FD7 /* Assets.xcassets */; };
+		3A9273F31F6E096300AE8FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9273F11F6E096300AE8FD7 /* LaunchScreen.storyboard */; };
+		3A9274001F6E0AE400AE8FD7 /* DesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273FB1F6E0AE400AE8FD7 /* DesignTextField.swift */; };
+		3A9274011F6E0AE400AE8FD7 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273FC1F6E0AE400AE8FD7 /* DesignButton.swift */; };
+		3A9274021F6E0AE400AE8FD7 /* homeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273FD1F6E0AE400AE8FD7 /* homeButton.swift */; };
+		3A9274031F6E0AE400AE8FD7 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273FE1F6E0AE400AE8FD7 /* DesignView.swift */; };
+		3A9274041F6E0AE400AE8FD7 /* DesignImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9273FF1F6E0AE400AE8FD7 /* DesignImageView.swift */; };
+		3A92740A1F6E0FAC00AE8FD7 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274091F6E0FAC00AE8FD7 /* OrderVC.swift */; };
+		3A92741B1F6E1EF800AE8FD7 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A92741A1F6E1EF800AE8FD7 /* CodeScan.bundle */; };
+		3A92741D1F6E1F5C00AE8FD7 /* QRcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92741C1F6E1F5C00AE8FD7 /* QRcodeScanner.swift */; };
+		3A9274271F6E2DCB00AE8FD7 /* ScanResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9274261F6E2DCB00AE8FD7 /* ScanResultController.xib */; };
+		3A9274291F6E2DE200AE8FD7 /* ScanResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274281F6E2DE200AE8FD7 /* ScanResultController.swift */; };
+		3A9274491F6E505E00AE8FD7 /* LBXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274421F6E505E00AE8FD7 /* LBXPermissions.swift */; };
+		3A92744A1F6E505E00AE8FD7 /* LBXScanLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274431F6E505E00AE8FD7 /* LBXScanLineAnimation.swift */; };
+		3A92744B1F6E505E00AE8FD7 /* LBXScanNetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274441F6E505E00AE8FD7 /* LBXScanNetAnimation.swift */; };
+		3A92744C1F6E505E00AE8FD7 /* LBXScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274451F6E505E00AE8FD7 /* LBXScanView.swift */; };
+		3A92744D1F6E505E00AE8FD7 /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274461F6E505E00AE8FD7 /* LBXScanViewController.swift */; };
+		3A92744E1F6E505E00AE8FD7 /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274471F6E505E00AE8FD7 /* LBXScanViewStyle.swift */; };
+		3A92744F1F6E505E00AE8FD7 /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9274481F6E505E00AE8FD7 /* LBXScanWrapper.swift */; };
+		61B3A829571530F9A1CA430C /* Pods_QRcodeSelfPickUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08E5B18744C26CCC28CD291 /* Pods_QRcodeSelfPickUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A9273E51F6E096300AE8FD7 /* QRcodeSelfPickUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcodeSelfPickUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9273E81F6E096300AE8FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A9273EA1F6E096300AE8FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A9273ED1F6E096300AE8FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A9273EF1F6E096300AE8FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A9273F21F6E096300AE8FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A9273F41F6E096300AE8FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9273FB1F6E0AE400AE8FD7 /* DesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTextField.swift; sourceTree = "<group>"; };
+		3A9273FC1F6E0AE400AE8FD7 /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		3A9273FD1F6E0AE400AE8FD7 /* homeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeButton.swift; sourceTree = "<group>"; };
+		3A9273FE1F6E0AE400AE8FD7 /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		3A9273FF1F6E0AE400AE8FD7 /* DesignImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignImageView.swift; sourceTree = "<group>"; };
+		3A9274091F6E0FAC00AE8FD7 /* OrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		3A92741A1F6E1EF800AE8FD7 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		3A92741C1F6E1F5C00AE8FD7 /* QRcodeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeScanner.swift; sourceTree = "<group>"; };
+		3A9274261F6E2DCB00AE8FD7 /* ScanResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanResultController.xib; sourceTree = "<group>"; };
+		3A9274281F6E2DE200AE8FD7 /* ScanResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanResultController.swift; sourceTree = "<group>"; };
+		3A9274421F6E505E00AE8FD7 /* LBXPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXPermissions.swift; sourceTree = "<group>"; };
+		3A9274431F6E505E00AE8FD7 /* LBXScanLineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanLineAnimation.swift; sourceTree = "<group>"; };
+		3A9274441F6E505E00AE8FD7 /* LBXScanNetAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanNetAnimation.swift; sourceTree = "<group>"; };
+		3A9274451F6E505E00AE8FD7 /* LBXScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanView.swift; sourceTree = "<group>"; };
+		3A9274461F6E505E00AE8FD7 /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
+		3A9274471F6E505E00AE8FD7 /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
+		3A9274481F6E505E00AE8FD7 /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
+		9199C768996B8CCA57AC1A9A /* Pods-QRcodeSelfPickUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcodeSelfPickUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRcodeSelfPickUp/Pods-QRcodeSelfPickUp.debug.xcconfig"; sourceTree = "<group>"; };
+		D08E5B18744C26CCC28CD291 /* Pods_QRcodeSelfPickUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRcodeSelfPickUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6880FC8907868244DDED450 /* Pods-QRcodeSelfPickUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRcodeSelfPickUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRcodeSelfPickUp/Pods-QRcodeSelfPickUp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A9273E21F6E096300AE8FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B3A829571530F9A1CA430C /* Pods_QRcodeSelfPickUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BB286AF90560CF435D173E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9199C768996B8CCA57AC1A9A /* Pods-QRcodeSelfPickUp.debug.xcconfig */,
+				D6880FC8907868244DDED450 /* Pods-QRcodeSelfPickUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A9273DC1F6E096300AE8FD7 = {
+			isa = PBXGroup;
+			children = (
+				3A9273E71F6E096300AE8FD7 /* QRcodeSelfPickUp */,
+				3A9273E61F6E096300AE8FD7 /* Products */,
+				11BB286AF90560CF435D173E /* Pods */,
+				C423E47F6E4D40859F8AABC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A9273E61F6E096300AE8FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9273E51F6E096300AE8FD7 /* QRcodeSelfPickUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A9273E71F6E096300AE8FD7 /* QRcodeSelfPickUp */ = {
+			isa = PBXGroup;
+			children = (
+				3A92740B1F6E1EB900AE8FD7 /* Source */,
+				3A9273FA1F6E0AC700AE8FD7 /* UIDesign */,
+				3A9273E81F6E096300AE8FD7 /* AppDelegate.swift */,
+				3A9273EA1F6E096300AE8FD7 /* ViewController.swift */,
+				3A9273EC1F6E096300AE8FD7 /* Main.storyboard */,
+				3A9274281F6E2DE200AE8FD7 /* ScanResultController.swift */,
+				3A9274261F6E2DCB00AE8FD7 /* ScanResultController.xib */,
+				3A92741A1F6E1EF800AE8FD7 /* CodeScan.bundle */,
+				3A9273EF1F6E096300AE8FD7 /* Assets.xcassets */,
+				3A9273F11F6E096300AE8FD7 /* LaunchScreen.storyboard */,
+				3A9273F41F6E096300AE8FD7 /* Info.plist */,
+				3A9274091F6E0FAC00AE8FD7 /* OrderVC.swift */,
+				3A92741C1F6E1F5C00AE8FD7 /* QRcodeScanner.swift */,
+			);
+			path = QRcodeSelfPickUp;
+			sourceTree = "<group>";
+		};
+		3A9273FA1F6E0AC700AE8FD7 /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+				3A9273FB1F6E0AE400AE8FD7 /* DesignTextField.swift */,
+				3A9273FC1F6E0AE400AE8FD7 /* DesignButton.swift */,
+				3A9273FD1F6E0AE400AE8FD7 /* homeButton.swift */,
+				3A9273FE1F6E0AE400AE8FD7 /* DesignView.swift */,
+				3A9273FF1F6E0AE400AE8FD7 /* DesignImageView.swift */,
+			);
+			name = UIDesign;
+			sourceTree = "<group>";
+		};
+		3A92740B1F6E1EB900AE8FD7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3A9274421F6E505E00AE8FD7 /* LBXPermissions.swift */,
+				3A9274431F6E505E00AE8FD7 /* LBXScanLineAnimation.swift */,
+				3A9274441F6E505E00AE8FD7 /* LBXScanNetAnimation.swift */,
+				3A9274451F6E505E00AE8FD7 /* LBXScanView.swift */,
+				3A9274461F6E505E00AE8FD7 /* LBXScanViewController.swift */,
+				3A9274471F6E505E00AE8FD7 /* LBXScanViewStyle.swift */,
+				3A9274481F6E505E00AE8FD7 /* LBXScanWrapper.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C423E47F6E4D40859F8AABC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D08E5B18744C26CCC28CD291 /* Pods_QRcodeSelfPickUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A9273E41F6E096300AE8FD7 /* QRcodeSelfPickUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9273F71F6E096300AE8FD7 /* Build configuration list for PBXNativeTarget "QRcodeSelfPickUp" */;
+			buildPhases = (
+				52B66BFA602152AA989D320F /* [CP] Check Pods Manifest.lock */,
+				3A9273E11F6E096300AE8FD7 /* Sources */,
+				3A9273E21F6E096300AE8FD7 /* Frameworks */,
+				3A9273E31F6E096300AE8FD7 /* Resources */,
+				8473917106B01D75F8ECF263 /* [CP] Embed Pods Frameworks */,
+				D053912068E08025F09BDF44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRcodeSelfPickUp;
+			productName = QRcodeSelfPickUp;
+			productReference = 3A9273E51F6E096300AE8FD7 /* QRcodeSelfPickUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A9273DD1F6E096300AE8FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kiritoty;
+				TargetAttributes = {
+					3A9273E41F6E096300AE8FD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F5XG5TQ28Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A9273E01F6E096300AE8FD7 /* Build configuration list for PBXProject "QRcodeSelfPickUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A9273DC1F6E096300AE8FD7;
+			productRefGroup = 3A9273E61F6E096300AE8FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A9273E41F6E096300AE8FD7 /* QRcodeSelfPickUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A9273E31F6E096300AE8FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9273F31F6E096300AE8FD7 /* LaunchScreen.storyboard in Resources */,
+				3A9273F01F6E096300AE8FD7 /* Assets.xcassets in Resources */,
+				3A9273EE1F6E096300AE8FD7 /* Main.storyboard in Resources */,
+				3A9274271F6E2DCB00AE8FD7 /* ScanResultController.xib in Resources */,
+				3A92741B1F6E1EF800AE8FD7 /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52B66BFA602152AA989D320F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8473917106B01D75F8ECF263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRcodeSelfPickUp/Pods-QRcodeSelfPickUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D053912068E08025F09BDF44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRcodeSelfPickUp/Pods-QRcodeSelfPickUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A9273E11F6E096300AE8FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A92744B1F6E505E00AE8FD7 /* LBXScanNetAnimation.swift in Sources */,
+				3A9273EB1F6E096300AE8FD7 /* ViewController.swift in Sources */,
+				3A9274291F6E2DE200AE8FD7 /* ScanResultController.swift in Sources */,
+				3A9274041F6E0AE400AE8FD7 /* DesignImageView.swift in Sources */,
+				3A92741D1F6E1F5C00AE8FD7 /* QRcodeScanner.swift in Sources */,
+				3A92744F1F6E505E00AE8FD7 /* LBXScanWrapper.swift in Sources */,
+				3A92744D1F6E505E00AE8FD7 /* LBXScanViewController.swift in Sources */,
+				3A9273E91F6E096300AE8FD7 /* AppDelegate.swift in Sources */,
+				3A9274031F6E0AE400AE8FD7 /* DesignView.swift in Sources */,
+				3A92744E1F6E505E00AE8FD7 /* LBXScanViewStyle.swift in Sources */,
+				3A9274001F6E0AE400AE8FD7 /* DesignTextField.swift in Sources */,
+				3A92744C1F6E505E00AE8FD7 /* LBXScanView.swift in Sources */,
+				3A9274491F6E505E00AE8FD7 /* LBXPermissions.swift in Sources */,
+				3A92744A1F6E505E00AE8FD7 /* LBXScanLineAnimation.swift in Sources */,
+				3A92740A1F6E0FAC00AE8FD7 /* OrderVC.swift in Sources */,
+				3A9274021F6E0AE400AE8FD7 /* homeButton.swift in Sources */,
+				3A9274011F6E0AE400AE8FD7 /* DesignButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A9273EC1F6E096300AE8FD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9273ED1F6E096300AE8FD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A9273F11F6E096300AE8FD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9273F21F6E096300AE8FD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A9273F51F6E096300AE8FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A9273F61F6E096300AE8FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A9273F81F6E096300AE8FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9199C768996B8CCA57AC1A9A /* Pods-QRcodeSelfPickUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5XG5TQ28Y;
+				INFOPLIST_FILE = QRcodeSelfPickUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiritoty.QRcodeSelfPickUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A9273F91F6E096300AE8FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6880FC8907868244DDED450 /* Pods-QRcodeSelfPickUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5XG5TQ28Y;
+				INFOPLIST_FILE = QRcodeSelfPickUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiritoty.QRcodeSelfPickUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9273E01F6E096300AE8FD7 /* Build configuration list for PBXProject "QRcodeSelfPickUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9273F51F6E096300AE8FD7 /* Debug */,
+				3A9273F61F6E096300AE8FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9273F71F6E096300AE8FD7 /* Build configuration list for PBXNativeTarget "QRcodeSelfPickUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9273F81F6E096300AE8FD7 /* Debug */,
+				3A9273F91F6E096300AE8FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A9273DD1F6E096300AE8FD7 /* Project object */;
+}

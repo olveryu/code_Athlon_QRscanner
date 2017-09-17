@@ -1,0 +1,6 @@
+framework module Pods_QRcodeSelfPickUp {
+  umbrella header "Pods-QRcodeSelfPickUp-umbrella.h"
+
+  export *
+  module * { export * }
+}
