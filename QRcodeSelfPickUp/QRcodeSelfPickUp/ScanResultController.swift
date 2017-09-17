@@ -51,7 +51,7 @@ class ScanResultController: UIViewController {
     
     func get() {
     
-        guard let url = URL(string: "http://cobweb.cs.uga.edu/~zhenyu/json.html") else { return }
+        guard let url = URL(string: "your url") else { return }
         
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
